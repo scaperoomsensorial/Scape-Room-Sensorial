@@ -1,0 +1,172 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0B3B60; 
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.barra-superior {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: #ffffff; 
+}
+header {
+    background-color: #082944; 
+    padding: 40px 20px;
+    border-bottom: 3px solid #e3000f; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.logo-projeto {
+    height: 300px; 
+    width: auto;
+    object-fit: contain;
+}
+.titulo-container {
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .titulo-container {
+        text-align: center;
+    }
+}
+
+h1 {
+    color: #ffffff; 
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin: 0;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.titulo-container p {
+    margin: 10px 0 0 0;
+}
+
+.timer-container {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #082944;
+    border: 2px dashed #e3000f;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    max-width: 600px;
+    width: 90%;
+}
+#timer {
+    font-size: 3em;
+    font-weight: bold;
+    color: #e3000f; 
+}
+
+/* Estilos para a Tabela de Ranking que aparece após o timer */
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: left;
+}
+.ranking-table th, .ranking-table td {
+    padding: 10px;
+    border-bottom: 1px solid #1a4d7c;
+}
+.ranking-table th {
+    color: #e3000f;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.ranking-table td {
+    font-size: 1em;
+}
+
+/* Estilo para o Botão do Formulário */
+.botao-inscricao {
+    background-color: #e3000f;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao-inscricao:hover {
+    background-color: #ff1a2b;
+    transform: scale(1.05);
+}
+
+.team-section {
+    background-color: #0a3151; 
+    padding: 40px 20px;
+}
+.team-list {
+    list-style: none;
+    padding: 0;
+}
+.team-list li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.contact-info {
+    margin-top: 25px;
+    font-size: 1.1em;
+}
+.contact-info a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.form-section {
+    padding: 40px 20px;
+}
+footer {
+    background-color: #051c2e; 
+    padding: 20px 0 0 0; 
+    font-size: 0.9em;
+    color: #cccccc;
+    margin-top: 20px;
+}
+.footer-texto {
+    padding-bottom: 20px;
+}
+.logos-rodape {
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 30px; 
+    padding: 20px;
+    border-top: 3px solid #e3000f; 
+}
+.logos-rodape img {
+    max-height: 60px; 
+    width: auto;
+}

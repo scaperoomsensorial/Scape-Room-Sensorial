@@ -1,4 +1,3 @@
-// Data do evento
 const countDownDate = new Date("Oct 22, 2026 15:00:00").getTime();
 
 const x = setInterval(function() {
@@ -16,10 +15,11 @@ const x = setInterval(function() {
     if (distance < 0) {
         clearInterval(x);
         
-        // Substitui o conteúdo da caixa do timer pelo Ranking das Equipes
         document.getElementById("timer-title").innerHTML = "RANKING FINAL - FUGIDAS DA DOPAMINA";
-        document.getElementById("timer-box").innerHTML = `
-            <h2 id="timer-title" style="color: #e3000f; margin-top: 0;">RANKING DAS EQUIPES</h2>
+        
+        const timerBox = document.getElementById("timer-box");
+        timerBox.innerHTML = `
+            <h2 style="color: #e3000f; margin-top: 0; text-align: center;">RANKING DAS EQUIPES</h2>
             <table class="ranking-table">
                 <thead>
                     <tr>
@@ -46,6 +46,29 @@ const x = setInterval(function() {
                     </tr>
                 </tbody>
             </table>
+
+            <div class="comments-container" id="giscus-container">
+                <h3 style="color: #e3000f; text-align: center; text-transform: uppercase; margin-bottom: 15px;">Comentários dos Participantes</h3>
+            </div>
         `;
+
+        // Cria e insere o script do Giscus dinamicamente na página
+        const giscusScript = document.createElement("script");
+        giscusScript.src = "https://giscus.app/client.js";
+        giscusScript.setAttribute("data-repo", "scaperoomsensorial/Scape-Room-Sensorial");
+        giscusScript.setAttribute("data-repo-id", "R_kgDOUh8Swg");
+        giscusScript.setAttribute("data-category", "Announcements");
+        giscusScript.setAttribute("data-category-id", "DIC_kwDOUh8Sws4DGZCP");
+        giscusScript.setAttribute("data-mapping", "pathname");
+        giscusScript.setAttribute("data-strict", "0");
+        giscusScript.setAttribute("data-reactions-enabled", "1");
+        giscusScript.setAttribute("data-emit-metadata", "0");
+        giscusScript.setAttribute("data-input-position", "bottom");
+        giscusScript.setAttribute("data-theme", "transparent_dark");
+        giscusScript.setAttribute("data-lang", "pt");
+        giscusScript.crossOrigin = "anonymous";
+        giscusScript.async = true;
+
+        document.getElementById("giscus-container").appendChild(giscusScript);
     }
 }, 1000);

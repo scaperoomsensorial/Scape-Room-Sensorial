@@ -70,7 +70,7 @@ p {
     display: inline-block;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    max-width: 600px;
+    max-width: 700px;
     width: 90%;
 }
 #timer {
@@ -79,11 +79,11 @@ p {
     color: #e3000f; 
 }
 
-/* Estilos para a Tabela de Ranking que aparece após o timer */
 .ranking-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
+    margin-bottom: 25px;
     text-align: left;
 }
 .ranking-table th, .ranking-table td {
@@ -97,6 +97,13 @@ p {
 }
 .ranking-table td {
     font-size: 1em;
+}
+
+.comments-container {
+    margin-top: 20px;
+    border-top: 2px solid #1a4d7c;
+    padding-top: 20px;
+    text-align: left;
 }
 
 /* Estilo para o Botão do Formulário */
@@ -113,7 +120,6 @@ p {
     display: inline-block;
     transition: background-color 0.3s, transform 0.2s;
 }
-
 .botao-inscricao:hover {
     background-color: #ff1a2b;
     transform: scale(1.05);

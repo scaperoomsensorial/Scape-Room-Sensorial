@@ -106,25 +106,6 @@ p {
     text-align: left;
 }
 
-/* Estilo para o Botão do Formulário */
-.botao-inscricao {
-    background-color: #e3000f;
-    color: #ffffff;
-    padding: 15px 30px;
-    font-size: 1.3em;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-    display: inline-block;
-    transition: background-color 0.3s, transform 0.2s;
-}
-.botao-inscricao:hover {
-    background-color: #ff1a2b;
-    transform: scale(1.05);
-}
-
 .team-section {
     background-color: #0a3151; 
     padding: 40px 20px;
@@ -149,9 +130,6 @@ p {
     text-decoration: underline;
 }
 
-.form-section {
-    padding: 40px 20px;
-}
 footer {
     background-color: #051c2e; 
     padding: 20px 0 0 0; 

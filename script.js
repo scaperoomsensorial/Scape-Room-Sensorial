@@ -61,7 +61,7 @@ const x = setInterval(function() {
                     </tr>
                     <tr>
                         <td>3º</td>
-                        <td>Predestinados =</td>
+                        <td>Predestinados</td>
                         <td>15 min 00 seg</td>
                         <td class="status-preso">PRESA</td>
                     </tr>

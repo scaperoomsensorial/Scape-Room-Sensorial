@@ -56,12 +56,12 @@ const x = setInterval(function() {
                     </tr>
                     <tr>
                         <td>3º</td>
-                        <td>Sinapse Rápida</td>
+                        <td>Predestinados</td>
                         <td>15 min 00 seg</td>
                     </tr>
                     <tr>
                         <td>3º</td>
-                        <td>Predestinados</td>
+                        <td>Os Topados</td>
                         <td>15 min 00 seg</td>
                     </tr>
                 </tbody>

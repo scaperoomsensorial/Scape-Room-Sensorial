@@ -31,18 +31,38 @@ const x = setInterval(function() {
                 <tbody>
                     <tr>
                         <td>1º</td>
-                        <td>CyberMente</td>
-                        <td>11 min 45 seg</td>
+                        <td>Segunda Chance</td>
+                        <td>09 min 29 seg</td>
                     </tr>
                     <tr>
                         <td>2º</td>
-                        <td>Os Desconectados</td>
-                        <td>13 min 20 seg</td>
+                        <td>Os Últimos</td>
+                        <td>11 min 05 seg</td>
+                    </tr>
+                    <tr>
+                        <td>3º</td>
+                        <td>The Firsts</td>
+                        <td>15 min 00 seg</td>
+                    </tr>
+                    <tr>
+                        <td>3º</td>
+                        <td>Cabeça de Morcego</td>
+                        <td>15 min 00 seg</td>
+                    </tr>
+                    <tr>
+                        <td>3º</td>
+                        <td>Cicada303</td>
+                        <td>15 min 00 seg</td>
                     </tr>
                     <tr>
                         <td>3º</td>
                         <td>Sinapse Rápida</td>
-                        <td>14 min 10 seg</td>
+                        <td>15 min 00 seg</td>
+                    </tr>
+                    <tr>
+                        <td>3º</td>
+                        <td>Predestinados</td>
+                        <td>15 min 00 seg</td>
                     </tr>
                 </tbody>
             </table>

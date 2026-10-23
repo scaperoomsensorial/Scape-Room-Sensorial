@@ -16,7 +16,6 @@ const x = setInterval(function() {
         clearInterval(x);
         
         document.getElementById("timer-title").innerHTML = "RANKING FINAL - FUGIDAS DA DOPAMINA";
-        
         const timerBox = document.getElementById("timer-box");
         timerBox.innerHTML = `
             <h2 style="color: #e3000f; margin-top: 0; text-align: center;">RANKING DAS EQUIPES</h2>
@@ -26,6 +25,7 @@ const x = setInterval(function() {
                         <th>Pos</th>
                         <th>Nome da Equipe</th>
                         <th>Tempo de Fuga</th>
+                        <th>Status</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,36 +33,43 @@ const x = setInterval(function() {
                         <td>1º</td>
                         <td>Segunda Chance</td>
                         <td>09 min 29 seg</td>
+                        <td class="status-escapou">ESCAPOU</td>
                     </tr>
                     <tr>
                         <td>2º</td>
                         <td>Os Últimos</td>
                         <td>11 min 05 seg</td>
+                        <td class="status-escapou">ESCAPOU</td>
                     </tr>
                     <tr>
                         <td>3º</td>
                         <td>The Firsts</td>
                         <td>15 min 00 seg</td>
+                        <td class="status-preso">PRESA</td>
                     </tr>
                     <tr>
                         <td>3º</td>
                         <td>Cabeça de Morcego</td>
                         <td>15 min 00 seg</td>
+                        <td class="status-preso">PRESA</td>
                     </tr>
                     <tr>
                         <td>3º</td>
                         <td>Cicada303</td>
                         <td>15 min 00 seg</td>
+                        <td class="status-preso">PRESA</td>
                     </tr>
                     <tr>
                         <td>3º</td>
-                        <td>Predestinados</td>
+                        <td>Predestinados =</td>
                         <td>15 min 00 seg</td>
+                        <td class="status-preso">PRESA</td>
                     </tr>
                     <tr>
                         <td>3º</td>
                         <td>Os Topados</td>
                         <td>15 min 00 seg</td>
+                        <td class="status-preso">PRESA</td>
                     </tr>
                 </tbody>
             </table>
